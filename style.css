@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Preahvihear&family=Quicksand:wght@300&display=swap');
+header{
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.cabecera{
+    background-color: rgba(86, 179, 255, 0.693)
+}
+header a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 150px;
+}
+header ul li{
+    margin: 100px;
+    padding-top: 150px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+.cajauno{
+    background-color: rgba(177, 135, 83, 0.528)
+}
+#introduccion h1{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+#introduccion p{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 24px;
+    color: rgb(111, 61, 25);
+    font-family: 'Preahvihear', sans-serif;
+}
+h3{
+    font-size: 15px;
+    color: rgb(39, 67, 226);
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-size: 12px;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+.caja{
+    background-color: rgba(86, 179, 255, 0.693)
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+.contenido{
+    height: 700px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenido img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.contenido p{
+    font-size: 15px;
+}
+#carouselExampleControls{
+    height: 215px;
+    width: 360px;
+}
+#carouselExampleControls img{
+    height: 215px;
+    width: 360px;
+}
+.carrusel{
+    background-color: rgba(177, 135, 83, 0.528)
+}
+
+
+
+
